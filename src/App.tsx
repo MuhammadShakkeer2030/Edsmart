@@ -22,6 +22,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const fetchData = async () => {
     setLoading(true);
+    console.log(loading)
     const collectionRef = collection(db, "addArray");
     try {
       const querySnapShot = await getDocs(collectionRef);

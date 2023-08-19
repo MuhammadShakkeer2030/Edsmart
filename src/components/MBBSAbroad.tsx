@@ -1,6 +1,5 @@
 import ImageCard from "./ImageCard";
 import { FC } from "react";
-import { Gallery_data } from "../assets/utility/utitly";
 import { DocumentData } from "firebase/firestore";
 
 interface MbbsProps {
